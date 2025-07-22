@@ -47,7 +47,7 @@ def main():
 
     }
 
-    choice = st.radio(" Wecome to Ferrosa", list(label_map.keys()))
+    choice = st.radio(" Welcome to Ferrosa", list(label_map.keys()))
 
     # 5. Load and run the appropriate module's render() method
     module = label_map[choice]
